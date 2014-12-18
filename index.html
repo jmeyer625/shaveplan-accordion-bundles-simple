@@ -1,0 +1,321 @@
+<html>
+	<head>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/css/foundation.min.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<nav class="top-bar" data-topbar role="navigation" style="background-color:white;border-bottom:1px solid #0A4D6D;margin-bottom:20px">
+			<ul class="title-area">
+				<li class="name">
+					<h1>
+						<a href="#" style="color:#0A4D6D;font-weight:bold;font-size:20px">Harry's</a>
+					</h1>
+				</li>
+			</ul>
+		</nav>
+		<div class="face-landing">
+			<div class="row intro">
+				<div class="large-6 large-offset-3 columns">
+					<h3>Harry's Shave Plans</h3>
+					<h6>Shaving supplies automatically delivered based on how often you shave.</h6>
+					<br>
+					<h6>8 blades + 2 foaming gels for $30 per shipment (a $39 value)</h6>
+				</div>
+			</div>
+			<div class="main-section">
+				<div class="row pre-face">
+					<div class="large-6 large-offset-3 columns">
+						<h5>To get started, choose how often you shave</h5>
+					</div>
+				</div>
+				<div class="row main-faces">
+					<div class="large-4 columns">
+						<img src="images/faces/everyday.png" alt="" class="main-face-img">
+						<h5>Everyday Shaver</h5>
+						<p>Shaves 5-7 days per week</p>
+						<a href="#" class="button init-enroll" data-plan="everyday">This is me</a>
+						<p>Ships every 2 months</p>
+						<p>$15.00 / month</p>
+					</div>
+					<div class="large-4 columns">
+						<img src="images/faces/occasional.png" alt="" class="main-face-img">
+						<h5>Occasional Shaver</h5>
+						<p>Shaves a few days per week</p>
+						<a href="#" class="button init-enroll" data-plan="occasional">This is me</a>
+						<p>Ships every 3 months</p>
+						<p>$10.00 / month</p>
+					</div>
+					<div class="large-4 columns">
+						<img src="images/faces/infrequent.png" alt="" class="main-face-img">
+						<h5>Infrequent Shaver</h5>
+						<p>Shaves 1-2 days per week</p>
+						<a href="#" class="button init-enroll" data-plan="infrequent">This is me</a>
+						<p>Ships every 5 months</p>
+						<p>$6.00 / month</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="accordion" style="display:none">
+			<div class="accordion-section" data-section="1">
+				<div class="row accordion-title active-title">
+					<div class="large-6 columns">
+						<h4>1. Choose your shaving frequency</h4>
+					</div>
+					<div class="large-5 columns section-summary summary-inactive">
+						
+					</div>
+				</div>
+				<div class="accordion-section-body">
+					<div class="row pre-face">
+						<div class="large-6 large-offset-3 columns">
+							<h5>How often do you shave?</h5>
+						</div>
+					</div>
+					<div class="row main-faces">
+						<div class="large-4 columns">
+							<img src="images/faces/everyday.png" alt="" class="main-face-img">
+							<h5>Everyday Shaver</h5>
+							<p>Shaves 5-7 days per week</p>
+							<a href="#" class="button enroll" data-plan="everyday" style="margin-bottom:5px">This is me</a>
+							<p>Ships every 2 months</p>
+						</div>
+						<div class="large-4 columns">
+							<img src="images/faces/occasional.png" alt="" class="main-face-img">
+							<h5>Occasional Shaver</h5>
+							<p>Shaves a few days per week</p>
+							<a href="#" class="button enroll" data-plan="occasional" style="margin-bottom:5px">This is me</a>
+							<p>Ships every 3 months</p>
+						</div>
+						<div class="large-4 columns">
+							<img src="images/faces/infrequent.png" alt="" class="main-face-img">
+							<h5>Infrequent Shaver</h5>
+							<p>Shaves 1-2 days per week</p>
+							<a href="#" class="button enroll" data-plan="infrequent" style="margin-bottom:5px">This is me</a>
+							<p>Ships every 5 months</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-section" data-section="2">
+				<div class="row accordion-title">
+					<div class="large-6 columns">
+						<h4>2. Choose your recurring products</h4>
+					</div>
+					<div class="large-5 columns section-summary summary-inactive">
+						words
+					</div>
+				</div>
+				<div class="accordion-section-body inactive-section">
+					<div class="row">
+						<h4>Choose what you'll get in each shipment</h4>
+						<div class="medium-4 columns bundle-col" data-bundle="blade-only">
+							<h4>Blade Only Plan</h4>
+							<p>$15.00 / shipment</p>
+							<p>Shave Plan savings: $0</p>
+							<img src="images/cart/Blades-Group-2.jpg" alt="" class="shaver">
+						</div>
+						<div class="medium-4 columns bundle-col" data-bundle="essential">
+							<h4>Essential Plan</h4>
+							<p>$30.00 / shipment</p>
+							<p>Shave Plan savings: $9</p>
+							<img src="images/cart/2x2-Redemption-Gel.jpg" alt="" class="shaver">
+						</div>
+						<div class="medium-4 columns bundle-col" data-bundle="sensitive-skin">
+							<h4>Sensitive Skin Plan</h4>
+							<p>$40.00 / shipment</p>
+							<p>Shave Plan savings: $9</p>
+							<img src="images/cart/Blades-Gel-and-AfterShave-3.jpg" alt="" class="shaver">
+						</div>
+					</div>
+					<div class="row">
+						<div class="medium-4 columns">
+							<p>Includes:</p>
+							<p>1 x 8-pack Harry's Blades</p>
+						</div>
+						<div class="medium-4 columns">
+							<p>Includes:</p>
+							<p>1 x 8-pack Harry's Blades</p>
+							<p>2 x 6.7oz Foaming Shave Gels</p>
+						</div>
+						<div class="medium-4 columns">
+							<p>Includes:</p>
+							<p>1 x 8-pack Harry's Blades</p>
+							<p>2 x 6.7oz Foaming Shave Gels</p>
+							<p>1 x 1.6oz After Shave Moisturizer</p>
+						</div>
+					</div>
+					<div class="next-button">
+						<div class="row">
+							<a href="#" class="button alert" id="bundleComplete">Next</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="accordion-section" data-section="3">
+				<div class="row accordion-title">
+					<div class="large-6 columns">
+						<h4>3. Choose your free razor handle</h4>
+					</div>
+					<div class="large-5 columns section-summary summary-inactive">
+						words
+					</div>
+				</div>
+				<div class="accordion-section-body inactive-section">
+					<div class="row">
+						<div class="handle-div handle-selected" data-product="truman-orange">
+							<p class="handle-title">Total Orange</p>
+							<img src="images/products/truman-orange.jpg" alt="" class="handle-img">
+							<div class="color-selector" style="background-color:#ed7b20"></div>
+						</div>
+						<div class="handle-div" data-product="truman-blue">
+							<p class="handle-title">Nautilus Blue</p>
+							<img src="images/products/truman-blue.jpg" alt="" class="handle-img">
+							<div class="color-selector" style="background-color:#0a4d6d"></div>
+						</div>
+						<div class="handle-div" data-product="truman-olive">
+							<p class="handle-title">Olive 107</p>
+							<img src="images/products/truman-olive.jpg" alt="" class="handle-img">
+							<div class="color-selector" style="background-color:#707c3c"></div>
+						</div>
+						<div class="handle-div" data-product="truman-ivory">
+							<p class="handle-title">Ivory</p>
+							<img src="images/products/truman-ivory.jpg" alt="" class="handle-img">
+							<div class="color-selector" style="background-color:#efefe6"></div>
+						</div>
+					</div>
+					<div class="next-button">
+						<div class="row">
+							<a href="#" class="button alert" id="handleComplete">Next</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="accordion-section" data-section="4">
+				<div class="row accordion-title">
+					<div class="large-6 columns">
+						<h4>4. Review and check out</h4>
+					</div>
+					<div class="large-5 columns section-summary summary-active">
+						<div class="plan-summary">
+							<div class="item">
+								<div class="row" style="padding-top:15px">
+									<div class="large-6 columns">
+										<p class="block summary-text">Subtotal</p>
+									</div>
+									<div class="large-6 columns">
+										<p class="price" id="subTotal"></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-section-body inactive-section">
+					<div class="row">
+						<div class="large-6 columns">
+							<h5>Ships today:</h5>
+							<div class="product">
+								<img src="images/cart/Blades-130x130.jpg" id="bundleImage">
+								<p id="summaryBundleTitle"></p>
+								<p class="summary-price" id="summaryBundlePrice">$10.00</p>
+							</div>
+							<div class="product">
+								<img src="images/cart/truman-handle-nautilus-blue.jpg" alt="" id="handleCart">
+								<p><span id="trumanQuantitySummary">1</span> x Truman Handle - <span id="handleTitle">Total Orange</span></p>
+								<p class="summary-price" id="handleTotalPrice">Free</p>
+							</div>
+						</div>
+						<div class="large-6 columns">
+							<h5>Ships every <span id="months">5</span> months:</h5>
+							<div class="product">
+								<img src="images/cart/Blades-130x130.jpg" id="recurringBundleImage">
+								<p id="recurringBundleTitle"></p>
+								<p class="summary-price" id="recurringBundlePrice">$10.00</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="large-6 columns">
+							<div class="price-summary" id="onetimeSummary">
+								<h5 style="display:inline-block">Today's total:</h5>
+								<p style="float:right;padding-top:3px;font-size:18px" id="oneTimeTotal">$</p>
+							</div>
+							<p style="text-align:right"></p>
+						</div>
+						<div class="large-6 columns">
+							<div class="price-summary" id="onetimeSummary">
+								<h5 style="display:inline-block">Recurring total:</h5>
+								<p style="float:right;padding-top:3px;font-size:18px" id="monthlyTotal"></p>
+							</div>
+							<p style="text-align:right;position:relative;top:-12px;right:50px">(Billed as <span id="recurringTotal"></span> every <span id="monthsSummary">2</span> months)</p>
+						</div>
+					</div>
+					<div class="next-button">
+						<div class="row">
+							<a href="#" class="button alert">Check out</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<script id="shaverSummaryTemplate" type="text/x-handlebars-template">
+			<div class="plan-summary" data-plan="">
+				<img src="{{image}}" class="plan-summary-image">
+				<p class="block">{{text}}</p>
+			</div>
+		</script>
+
+		<script id="bundleSummaryTemplate" type="text/x-handlebars-template">
+			<div class="plan-summary">
+				<div class="item">
+					<div class="row">
+						<div class="large-6 columns">
+							<p class="block summary-text" style="margin-top:15px">{{title}}</p>
+						</div>
+						<div class="large-6 columns">
+							<p class="price" style="margin-top:15px">{{dollar-price}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
+
+		<script id="zeroSummaryTemplate" type="text/x-handlebars-template">
+			<div class="plan-summary">
+				<p class="block handle-price">None selected</p>
+			</div>
+		</script>
+
+		<script id="handleSummaryTemplate" type="text/x-handlebars-template">
+			<div class="plan-summary">
+				<div class+"item">
+					<div class="row">
+						<div class="large-6 columns">
+							<div class="color-selector" style="background-color:{{color}};margin-top:15px"></div>
+							<p class="block handle-summary">{{text}}</p>
+						</div>
+						<div class="large-6 columns">
+							<p class="handle-price">Free</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
+
+
+
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation.min.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>	
+	</body>
+</html>
